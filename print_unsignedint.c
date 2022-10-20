@@ -20,7 +20,7 @@ int print_u(va_list u)
 		m /= 10;
 		a[i] = (n / m) % 10;
 	}
-	for (i 1; i < 10; i++)
+	for (i = 1; i < 10; i++)
 	{
 		m /= 10;
 		a[i] = (n / m) % 10;

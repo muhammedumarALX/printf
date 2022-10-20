@@ -47,16 +47,16 @@ int print_hex(unsigned int n, unsigned int c)
  */
 int print_x(va_list x)
 {
-	return (print_hexa(va_arg(x, unsigned int), 0));
+	return (print_hex(va_arg(x, unsigned int), 0));
 }
 
 /**
- * print_x - takes am unsigned int and prints it in uppercase hex notation
+ * print_X - takes am unsigned int and prints it in uppercase hex notation
  * @x: unsigned int to print
  *
  * Return: number of digits printed
  */
-int print_x(va_list x)
+int print_X(va_list x)
 {
 	return (print_hex(va_arg(x, unsigned int), 1));
 }
@@ -107,7 +107,7 @@ int print_p(va_list p)
 	_putchar('x');
 	count = 2;
 	m  = _pow(16, 15); /* 16 ^ 15*/
-	a[0] = n / m
+	a[0] = n / m;
 	for (i = 1; i < 16; i++)
 	{
 		m /= 16;

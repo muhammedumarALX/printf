@@ -54,7 +54,7 @@ static int hex_print(char c)
 		if (d[count] >= 10)
 			_putchar('0' + diff + d[count]);
 		else
-			_putchar('0' = d[count]);
+			_putchar('0' + d[count]);
 	}
 	return (count);
 }

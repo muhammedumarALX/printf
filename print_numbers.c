@@ -5,7 +5,7 @@
  *
  * Return: number of chars and digits printed
  */
-int print_i(va_list i);
+int print_i(va_list i)
 {
 	int a[10];
 	int j, m, n, sum, count;
@@ -23,7 +23,7 @@ int print_i(va_list i);
 	{
 		_putchar('-');
 		count++;
-		for (j = 0. sum = 0; j < 10; j++)
+		for (j = 0, sum = 0; j < 10; j++)
 			a[j] *= -1;
 	}
 	for (j = 0, sum = 0; j < 10; j++)
